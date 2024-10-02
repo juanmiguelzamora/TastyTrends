@@ -12,11 +12,6 @@
             android:title="Profile"/>
 
         <item
-            android:icon="@drawable/cart"
-            android:id="@+id/navCart"
-            android:title="Cart"/>
-
-        <item
             android:icon="@drawable/favorite"
             android:id="@+id/navFavorite"
             android:title="Favorites"/>

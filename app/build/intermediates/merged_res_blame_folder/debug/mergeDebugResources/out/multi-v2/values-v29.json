@@ -4,7 +4,7 @@
             "outputFile": "com.migsdev.tastytrends.app-mergeDebugResources-30:/values-v29/values-v29.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-4\\b35028e2a7f8eee44e1ea7204b0b24a1\\transformed\\core-splashscreen-1.0.0\\res\\values-v29\\values-v29.xml",
+                    "source": "C:\\Users\\ASUS STRIX\\.gradle\\caches\\transforms-4\\b35028e2a7f8eee44e1ea7204b0b24a1\\transformed\\core-splashscreen-1.0.0\\res\\values-v29\\values-v29.xml",
                     "from": {
                         "startLines": "2,7",
                         "startColumns": "4,4",
