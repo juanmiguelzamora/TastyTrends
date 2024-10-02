@@ -48,6 +48,10 @@
         "source": "com.migsdev.tastytrends.app-main-34:/layout/activity_main.xml"
     },
     {
+        "merged": "com.migsdev.tastytrends.app-debug-32:/drawable_notif.png.flat",
+        "source": "com.migsdev.tastytrends.app-main-34:/drawable/notif.png"
+    },
+    {
         "merged": "com.migsdev.tastytrends.app-debug-32:/drawable_baseline_email_25.xml.flat",
         "source": "com.migsdev.tastytrends.app-main-34:/drawable/baseline_email_25.xml"
     },
@@ -138,6 +142,10 @@
     {
         "merged": "com.migsdev.tastytrends.app-debug-32:/layout_drawer_header.xml.flat",
         "source": "com.migsdev.tastytrends.app-main-34:/layout/drawer_header.xml"
+    },
+    {
+        "merged": "com.migsdev.tastytrends.app-debug-32:/drawable_top_background.xml.flat",
+        "source": "com.migsdev.tastytrends.app-main-34:/drawable/top_background.xml"
     },
     {
         "merged": "com.migsdev.tastytrends.app-debug-32:/drawable_person.xml.flat",

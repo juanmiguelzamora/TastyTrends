@@ -34,6 +34,7 @@ drawable mainpic
 drawable menu
 drawable newlogo
 drawable nobg
+drawable notif
 drawable notification
 drawable order
 drawable person
@@ -42,6 +43,7 @@ drawable searchbarbg
 drawable splash_screen
 drawable tab_bkg
 drawable tastytrendlogo
+drawable top_background
 drawable viewpager_bkg
 drawable whiteround
 font poppins
@@ -58,6 +60,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id linearLayout
 id linearLayout2
 id login_email
@@ -82,6 +85,8 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView8
+id textView9
 id tvforgotbtn
 layout activity_drawer_navigation
 layout activity_forgot_pass
