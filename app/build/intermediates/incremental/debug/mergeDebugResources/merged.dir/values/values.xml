@@ -5584,6 +5584,7 @@
     <style name="Base.v21.Theme.SplashScreen" parent="android:Theme.DeviceDefault.NoActionBar">
     </style>
     <style name="Base.v21.Theme.SplashScreen.Light" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="isLightTheme">true</item>
     </style>
     <style name="CardView" parent="Base.CardView">
     </style>
@@ -6396,7 +6397,7 @@
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
-    <style name="Theme.App.SpashScreen.NoActionBar" parent="Theme.App.SpashScreen.NoActionBar">
+    <style name="Theme.App.SplashScreen.NoActionBar" parent="Theme.App.SplashScreen.NoActionBar">
 
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>

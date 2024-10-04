@@ -39,7 +39,7 @@
         <item name="colorOnPrimary">@color/green</item>
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
-    <style name="Theme.App.SpashScreen.NoActionBar" parent="Theme.App.SpashScreen.NoActionBar">
+    <style name="Theme.App.SplashScreen.NoActionBar" parent="Theme.App.SplashScreen.NoActionBar">
 
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>

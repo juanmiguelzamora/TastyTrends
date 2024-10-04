@@ -28,14 +28,16 @@
             android:exported="false" />
         <activity
             android:name=".SigUpActivity"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.App.SpashScreen.NoActionBar" >
+            android:theme="@style/Theme.App.SplashScreen.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

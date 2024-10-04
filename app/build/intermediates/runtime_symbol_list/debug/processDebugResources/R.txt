@@ -4604,7 +4604,7 @@ int style TextAppearance_MaterialComponents_Tooltip 0x7f13020f
 int style TextAppearance_Widget_AppCompat_ExpandedMenu_Item 0x7f130210
 int style TextAppearance_Widget_AppCompat_Toolbar_Subtitle 0x7f130211
 int style TextAppearance_Widget_AppCompat_Toolbar_Title 0x7f130212
-int style Theme_App_SpashScreen_NoActionBar 0x7f130213
+int style Theme_App_SplashScreen_NoActionBar 0x7f130213
 int style Theme_AppCompat 0x7f130214
 int style Theme_AppCompat_CompactMenu 0x7f130215
 int style Theme_AppCompat_DayNight 0x7f130216

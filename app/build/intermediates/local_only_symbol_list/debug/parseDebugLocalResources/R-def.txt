@@ -104,7 +104,7 @@ string app_name
 string close_nav
 string open_nav
 style Base.Theme.TastyTrends
-style Theme.App.SpashScreen.NoActionBar
+style Theme.App.SplashScreen.NoActionBar
 style Theme.TastyTrends
 xml backup_rules
 xml data_extraction_rules

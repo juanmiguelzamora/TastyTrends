@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.roydev.tastytrends.SignInFragment
 
 class SigUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,4 +27,5 @@ class SigUpActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 }

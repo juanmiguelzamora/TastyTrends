@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.migsdev.tastytrends"
-    compileSdk = 34
-
+    compileSdk = 35
     defaultConfig {
         applicationId = "com.migsdev.tastytrends"
         minSdk = 26
-        targetSdk = 34
+        //noinspection EditedTargetSdkVersion Original_targetSDK=34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -49,4 +49,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.android.volley:volley:1.2.1")
+    implementation("androidx.core:core-splashscreen:1.2.0-alpha02")
 }
