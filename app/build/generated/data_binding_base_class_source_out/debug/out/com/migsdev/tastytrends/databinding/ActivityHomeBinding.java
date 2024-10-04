@@ -5,11 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.card.MaterialCardView;
@@ -20,13 +20,16 @@ import java.lang.String;
 
 public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final ImageView buttonDrawerToggle;
 
   @NonNull
-  public final LinearLayout main;
+  public final ImageView imageView5;
+
+  @NonNull
+  public final ConstraintLayout main;
 
   @NonNull
   public final MaterialCardView materialCard;
@@ -37,20 +40,31 @@ public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textView5;
 
-  private ActivityHomeBinding(@NonNull LinearLayout rootView, @NonNull ImageView buttonDrawerToggle,
-      @NonNull LinearLayout main, @NonNull MaterialCardView materialCard,
-      @NonNull SearchView searchView, @NonNull TextView textView5) {
+  @NonNull
+  public final TextView textView8;
+
+  @NonNull
+  public final TextView textView9;
+
+  private ActivityHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageView buttonDrawerToggle, @NonNull ImageView imageView5,
+      @NonNull ConstraintLayout main, @NonNull MaterialCardView materialCard,
+      @NonNull SearchView searchView, @NonNull TextView textView5, @NonNull TextView textView8,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.buttonDrawerToggle = buttonDrawerToggle;
+    this.imageView5 = imageView5;
     this.main = main;
     this.materialCard = materialCard;
     this.searchView = searchView;
     this.textView5 = textView5;
+    this.textView8 = textView8;
+    this.textView9 = textView9;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -81,7 +95,13 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout main = (LinearLayout) rootView;
+      id = R.id.imageView5;
+      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView5 == null) {
+        break missingId;
+      }
+
+      ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.materialCard;
       MaterialCardView materialCard = ViewBindings.findChildViewById(rootView, id);
@@ -101,8 +121,20 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((LinearLayout) rootView, buttonDrawerToggle, main,
-          materialCard, searchView, textView5);
+      id = R.id.textView8;
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+      if (textView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
+        break missingId;
+      }
+
+      return new ActivityHomeBinding((ConstraintLayout) rootView, buttonDrawerToggle, imageView5,
+          main, materialCard, searchView, textView5, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

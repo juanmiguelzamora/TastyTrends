@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -8,6 +7,56 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/top_background"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Username"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toStartOf="@+id/textView8"
+                        app:srcCompat="@drawable/notification" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
@@ -18,15 +67,15 @@
             android:id="@+id/buttonDrawerToggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/menu"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:src="@drawable/menu" />
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="10dp"/>
+        android:padding="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +87,6 @@
         android:id="@+id/materialCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         app:cardCornerRadius="8dp"
         app:cardElevation="12dp"
         app:cardUseCompatPadding="true">
@@ -47,9 +95,9 @@
             android:id="@+id/searchView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:queryHint="Search Here ..."
             app:iconifiedByDefault="false"
-            app:queryBackground="@android:color/transparent">
+            app:queryBackground="@android:color/transparent"
+            app:queryHint="Search Here ...">
 
         </androidx.appcompat.widget.SearchView>
     </com.google.android.material.card.MaterialCardView>
@@ -72,5 +120,4 @@
     </LinearLayout>
 
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

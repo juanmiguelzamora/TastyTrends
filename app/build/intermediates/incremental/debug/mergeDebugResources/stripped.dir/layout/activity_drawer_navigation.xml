@@ -16,10 +16,10 @@
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        app:menu="@menu/nav_menu"
-        app:headerLayout="@layout/drawer_header"
         android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
         app:itemIconTint="@color/green"
-        app:itemTextColor="@color/green"/>
+        app:itemTextColor="@color/green"
+        app:menu="@menu/nav_menu" />
 
-  </androidx.drawerlayout.widget.DrawerLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

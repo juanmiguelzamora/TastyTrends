@@ -3126,6 +3126,7 @@ drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable newlogo
 drawable nobg
+drawable notif
 drawable notification
 drawable notification_action_background
 drawable notification_bg
@@ -3150,6 +3151,7 @@ drawable tastytrendlogo
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_background
 drawable viewpager_bkg
 drawable whiteround
 font poppins
@@ -3387,6 +3389,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id immediateStop
 id included
 id indeterminate
@@ -3640,6 +3643,8 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
