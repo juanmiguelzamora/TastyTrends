@@ -181,3 +181,4 @@ style Theme.App.SpashScreen.NoActionBar
 style Theme.TastyTrends
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

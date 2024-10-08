@@ -57,6 +57,7 @@
                     android:background="@drawable/btnstrokes"
                     android:hint="Username"
                     android:padding="8dp"
+                    android:textColor="@color/grey"
                     android:textColorHint="@color/grey" />
 
                 <EditText
@@ -69,6 +70,7 @@
                     android:drawablePadding="8dp"
                     android:hint="Email"
                     android:padding="8dp"
+                    android:textColor="@color/grey"
                     android:textColorHint="@color/grey" />
 
                 <EditText
@@ -80,6 +82,7 @@
                     android:background="@drawable/btnstrokes"
                     android:hint="Password"
                     android:padding="8dp"
+                    android:textColor="@color/grey"
                     android:textColorHint="@color/grey" />
 
                 <EditText
@@ -91,6 +94,7 @@
                     android:background="@drawable/btnstrokes"
                     android:hint="Confirm password"
                     android:padding="8dp"
+                    android:textColor="@color/grey"
                     android:textColorHint="@color/grey" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -102,7 +106,7 @@
                     android:background="@drawable/viewpager_bkg"
                     android:fontFamily="@font/poppins"
                     android:text="Sign up"
-                    android:textColor="#FFFFFF"
+                    android:textColor="#000000"
                     android:textSize="16sp"
                     app:cornerRadius="30dp" />
 
